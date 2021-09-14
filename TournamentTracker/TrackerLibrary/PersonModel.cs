@@ -4,7 +4,11 @@ using System.Text;
 
 namespace TrackerLibrary
 {
-    class PersonModel
+    public class PersonModel
     {
+        public String FirstName { get; set; }
+        public String LastName { get; set; }
+        public String EmailAddress { get; set; }
+        public String CellPhoneNumber { get; set; }
     }
 }
