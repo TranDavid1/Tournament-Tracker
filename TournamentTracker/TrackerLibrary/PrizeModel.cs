@@ -10,6 +10,5 @@ namespace TrackerLibrary
         public String PlaceName { get; set; }
         public decimal PrizeAmount { get; set; }
         public double PrizePercentage { get; set; }
-
     }
 }
